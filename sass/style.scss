@@ -24,7 +24,8 @@ body {
 
 
 }
-.card_conteiner{
+
+.card_conteiner {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -55,7 +56,63 @@ body {
         margin: auto;
         margin-top: 2rem;
         margin-bottom: 4px;
-        
+
+        .btn {
+            background-color: black;
+            border-color: grey;
+        }
     }
 
+}
+
+/**
+** Estilo de Peliculas
+*/
+.titulo_series {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+.series {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.titulo_pelicula {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+.peliculas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/**
+** Estilo de Tienda
+*/
+
+.cards_conteiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+
+    .btn {
+        background-color: black;
+        border-color: grey;
+    }
+
+    
 }
