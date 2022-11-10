@@ -36,6 +36,9 @@ body main {
   margin-top: 2rem;
   flex-wrap: wrap;
 }
+.card_conteiner img:hover {
+  opacity: 0.5;
+}
 
 .logo {
   width: 3rem;
@@ -81,6 +84,9 @@ body main {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.series img:hover {
+  opacity: 0.5;
+}
 
 .titulo_pelicula {
   display: flex;
@@ -95,6 +101,9 @@ body main {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+.peliculas img:hover {
+  opacity: 0.5;
 }
 .peliculas a {
   display: flex;
@@ -116,6 +125,9 @@ body main {
   justify-content: center;
   gap: 2rem;
   margin-top: 5rem;
+}
+.cards_conteiner img:hover {
+  opacity: 0.5;
 }
 .cards_conteiner .btn {
   background-color: black;

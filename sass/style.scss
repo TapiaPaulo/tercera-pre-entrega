@@ -39,6 +39,12 @@ body {
     justify-content: space-around;
     margin-top: 2rem;
     flex-wrap: wrap;
+
+    img {
+        &:hover{
+            opacity: 0.5;
+        }
+    }
 }
 
 .logo {
@@ -89,6 +95,12 @@ body {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    
+    img {
+        &:hover{
+            opacity: 0.5;
+        }
+    }
 }
 
 .titulo_pelicula {
@@ -104,11 +116,19 @@ body {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    
+    img {
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+    
 
     a {
         display: flex;
         justify-content: center;
     }
+
 
     .img-fluid {
         max-width: 100%;
@@ -128,6 +148,12 @@ body {
     justify-content: center;
     gap: 2rem;
     margin-top: 5rem;
+
+    img {
+        &:hover{
+            opacity: 0.5;
+        }
+    }
 
     .btn {
         background-color: black;
