@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+/**
+** mapa
+*/
+
+$estilo: (
+    color_1:  #000000,
+    color_2: #1C252C,
+    color_3: #212020
+);
+
 body {
     display: flex;
     flex-direction: column;
@@ -156,7 +166,8 @@ body {
     }
 
     .btn {
-        background-color: black;
-        border-color: grey;
+        background-color: map-get($estilo , color_1);
+        border-color: map-get($estilo, color_1 );
     }
 }
+
