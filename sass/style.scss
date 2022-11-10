@@ -22,12 +22,15 @@ body {
 
 }
 
-.carousel {
+.carousel_conteiner {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    
 
-
+    img {
+        width: 40vw;
+        min-width: 86vw;
+    }
 }
 
 .card_conteiner {
@@ -48,18 +51,19 @@ body {
 .formulario {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: auto;
 
     .form-group {
-        text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
         vertical-align: middle;
-        height: 100%;
-        width: 400px;
-        padding: 5px;
+        height: auto;
+        width: 75%;
         margin: auto;
-        margin-top: 3rem;
+        margin-top: 4rem;
+
 
 
         .btn {
@@ -100,6 +104,17 @@ body {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+
+    a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
 }
 
 /**
@@ -118,6 +133,4 @@ body {
         background-color: black;
         border-color: grey;
     }
-
-
 }
