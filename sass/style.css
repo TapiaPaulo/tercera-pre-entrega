@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+/**
+** mapa
+*/
 body {
   display: flex;
   flex-direction: column;
@@ -29,14 +32,16 @@ body main {
   min-width: 86vw;
 }
 
-.card_conteiner {
+.card_conteiner_menu {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 2rem;
   flex-wrap: wrap;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  gap: 3rem;
 }
-.card_conteiner img:hover {
+.card_conteiner_menu img:hover {
   opacity: 0.5;
 }
 
@@ -56,16 +61,20 @@ body main {
 .formulario .form-group {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   vertical-align: middle;
   height: auto;
-  width: 75%;
+  width: 60%;
   margin: auto;
   margin-top: 4rem;
+}
+.formulario .form-group .form-control {
+  width: 100%;
 }
 .formulario .form-group .btn {
   background-color: black;
   border-color: grey;
+  width: 100%;
 }
 
 /**
@@ -83,6 +92,7 @@ body main {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 3rem;
 }
 .series img:hover {
   opacity: 0.5;
@@ -101,6 +111,8 @@ body main {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  gap: 3rem;
+  margin-bottom: 2rem;
 }
 .peliculas img:hover {
   opacity: 0.5;
@@ -130,6 +142,6 @@ body main {
   opacity: 0.5;
 }
 .cards_conteiner .btn {
-  background-color: black;
-  border-color: grey;
+  background-color: #000000;
+  border-color: #000000;
 }/*# sourceMappingURL=style.css.map */
